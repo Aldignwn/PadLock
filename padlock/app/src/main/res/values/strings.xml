@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pad Lock</string>
+    <string name="tile_label">Kunci Sentuh</string>
+    <string name="service_desc">Memasang lapisan transparan yang menelan semua sentuhan layar, dan mendeteksi tombol Start+Select pada gamepad untuk mengunci atau membuka sentuhan.</string>
+
+    <string name="btn_settings">1. Buka Pengaturan Aksesibilitas</string>
+    <string name="btn_lock">2. Kunci sentuhan sekarang</string>
+    <string name="status_on">Service aktif.</string>
+    <string name="status_off">Service belum aktif. Aktifkan \"Pad Lock\" di Pengaturan Aksesibilitas.</string>
+    <string name="info">Cara pakai:\n\n• Sambungkan gamepad Bluetooth.\n• Tahan Start + Select selama 2 detik untuk mengunci sentuhan. Ulangi untuk membuka.\n• Alternatif: tambahkan tile \"Kunci Sentuh\" di panel Quick Settings (hanya bisa dipakai saat layar belum terkunci).\n• Jika gamepad terputus, sentuhan otomatis dibuka kembali.\n\nPerhatian: setelah terkunci, satu-satunya cara membuka lewat layar adalah dengan gamepad. Cabut/matikan gamepad atau restart HP jika terjadi masalah.</string>
+    <string name="toast_locked">Sentuhan dikunci. Tahan Start+Select 2 detik untuk membuka.</string>
+    <string name="toast_unlocked">Sentuhan terbuka.</string>
+    <string name="toast_no_pad">Gamepad belum terdeteksi, sentuhan tidak dikunci.</string>
+    <string name="toast_pad_lost">Gamepad terputus, sentuhan dibuka otomatis.</string>
+    <string name="toast_enable_service">Aktifkan service Pad Lock di Pengaturan Aksesibilitas dulu.</string>
+</resources>
